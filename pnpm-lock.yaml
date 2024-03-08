@@ -5,9 +5,27 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource-variable/fira-code':
+    specifier: ^5.0.17
+    version: 5.0.17
+  '@fontsource-variable/inter':
+    specifier: ^5.0.17
+    version: 5.0.17
+  '@fontsource-variable/karla':
+    specifier: ^5.0.20
+    version: 5.0.20
+  '@fontsource-variable/noto-sans-kr':
+    specifier: ^5.0.5
+    version: 5.0.5
+  '@fontsource-variable/roboto-flex':
+    specifier: ^5.0.12
+    version: 5.0.12
   '@mdi/font':
     specifier: ^7.4.47
     version: 7.4.47
+  defu:
+    specifier: ^6.1.4
+    version: 6.1.4
   nuxt:
     specifier: ^3.10.3
     version: 3.10.3(vite@5.1.5)
@@ -783,6 +801,26 @@ packages:
   /@fastify/busboy@2.1.1:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
+    dev: false
+
+  /@fontsource-variable/fira-code@5.0.17:
+    resolution: {integrity: sha512-TAzV74e3Tt6a7/cjxh1Jdly+Yrlc7AlSIMlzmtMUeDNQ0OcrYrcejkVRSRfGMjM+AuUhLw/PLoGV8fXj6pev5w==}
+    dev: false
+
+  /@fontsource-variable/inter@5.0.17:
+    resolution: {integrity: sha512-sa80nNnqF8kzhBvqusWiL9vlPMVpdmOwMmDBup46Jggsr1VBqo+YuzwB36Ls+X6uHJtb8Yv3ALBHL/zGmT862A==}
+    dev: false
+
+  /@fontsource-variable/karla@5.0.20:
+    resolution: {integrity: sha512-dvE2hAWZeRz2R+hoxFe96U6ClSeb4eFz7KP0wPnNatLZ7O1cq6M52k9YrUlhnJlgBNqPqkxccUgZEW0ptSPC6g==}
+    dev: false
+
+  /@fontsource-variable/noto-sans-kr@5.0.5:
+    resolution: {integrity: sha512-RGwy/mMP9tIJDpVslAdQGnIukDsSm4ojck1KwwKYMZUrDwN/CPC4sWXn/4oMdcYa5C1+aIlbuqKT6rQqozrkyw==}
+    dev: false
+
+  /@fontsource-variable/roboto-flex@5.0.12:
+    resolution: {integrity: sha512-E7BiK9JbPVzFm1DzSvKAXacSbwBnyEnUF1svxMn+46PxQ/jwuptB5Ixu5e7qx3WgsJVYddjKJlIXv39/YGxGGQ==}
     dev: false
 
   /@ioredis/commands@1.2.0:

@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import defaultTheme from 'tailwindcss/defaultTheme'
 
 export default {
     corePlugins: {
@@ -14,6 +15,12 @@ export default {
         './error.vue',
     ],
     theme: {
+        fontFamily: {
+            sans: ['Inter Variable', 'sans-serif'],
+            heading: ['Inter Variable', 'sans-serif'],
+            alt: ['Karla Variable', 'sans-serif'],
+            mono: ['Fira Code Variable', ...defaultTheme.fontFamily.mono],
+        },
         extend: {
             colors: {
                 llion: '#002d89',
